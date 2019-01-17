@@ -1,0 +1,17 @@
+
+// Mixins
+
+@mixin Hfont {
+    font-size: $Fsize; 
+    color: #555;   
+}
+
+@mixin back {
+    background-color: $yellow;
+    font-size: 2.4rem;
+    color: blue;
+}
+
+@mixin Tcolor {
+    color: $white;
+}

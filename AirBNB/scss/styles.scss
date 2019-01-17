@@ -1,0 +1,38 @@
+@import "variables";
+@import "mixin";
+
+
+.main, .top-navbar, ul, .hero, .box1, .book-heading, .bh1, .content, .book-box, .similar-listings, footer, .show, .show2 {
+    display: $display;
+    
+    .wrapper, .top-navbar, ul, .hero, .box1, .bh1, .main-book, .main-book2, {
+        flex-direction: $flex-direction;
+    }
+}
+
+.hero, .content, .book-box, .fixed-top-bar, .similar-listings, footer {
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+.similar-listings {
+    background-color: $deepPink;
+}
+
+footer {
+    background-color: $white;
+}
+
+h2 {
+    background-color: $white;
+}
+
+.top-navbar {
+    @include Hfont;
+}
+.similar-listings {
+    @include Tcolor;
+}
+footer {
+    @include back;
+}

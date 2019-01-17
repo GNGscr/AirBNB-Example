@@ -1,0 +1,50 @@
+/* line 5, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+.main, .top-navbar, ul, .hero, .box1, .book-heading, .bh1, .content, .book-box, .similar-listings, footer, .show, .show2 {
+  display: flex;
+}
+
+/* line 8, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+.main .wrapper, .main .top-navbar, .main ul, .main .hero, .main .box1, .main .bh1, .main .main-book, .main .main-book2, .top-navbar .wrapper, .top-navbar .top-navbar, .top-navbar ul, .top-navbar .hero, .top-navbar .box1, .top-navbar .bh1, .top-navbar .main-book, .top-navbar .main-book2, ul .wrapper, ul .top-navbar, ul ul, ul .hero, ul .box1, ul .bh1, ul .main-book, ul .main-book2, .hero .wrapper, .hero .top-navbar, .hero ul, .hero .hero, .hero .box1, .hero .bh1, .hero .main-book, .hero .main-book2, .box1 .wrapper, .box1 .top-navbar, .box1 ul, .box1 .hero, .box1 .box1, .box1 .bh1, .box1 .main-book, .box1 .main-book2, .book-heading .wrapper, .book-heading .top-navbar, .book-heading ul, .book-heading .hero, .book-heading .box1, .book-heading .bh1, .book-heading .main-book, .book-heading .main-book2, .bh1 .wrapper, .bh1 .top-navbar, .bh1 ul, .bh1 .hero, .bh1 .box1, .bh1 .bh1, .bh1 .main-book, .bh1 .main-book2, .content .wrapper, .content .top-navbar, .content ul, .content .hero, .content .box1, .content .bh1, .content .main-book, .content .main-book2, .book-box .wrapper, .book-box .top-navbar, .book-box ul, .book-box .hero, .book-box .box1, .book-box .bh1, .book-box .main-book, .book-box .main-book2, .similar-listings .wrapper, .similar-listings .top-navbar, .similar-listings ul, .similar-listings .hero, .similar-listings .box1, .similar-listings .bh1, .similar-listings .main-book, .similar-listings .main-book2, footer .wrapper, footer .top-navbar, footer ul, footer .hero, footer .box1, footer .bh1, footer .main-book, footer .main-book2, .show .wrapper, .show .top-navbar, .show ul, .show .hero, .show .box1, .show .bh1, .show .main-book, .show .main-book2, .show2 .wrapper, .show2 .top-navbar, .show2 ul, .show2 .hero, .show2 .box1, .show2 .bh1, .show2 .main-book, .show2 .main-book2 {
+  flex-direction: row;
+}
+
+/* line 13, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+.hero, .content, .book-box, .fixed-top-bar, .similar-listings, footer {
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 18, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+.similar-listings {
+  background-color: #ff1493;
+}
+
+/* line 22, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+footer {
+  background-color: #fff;
+}
+
+/* line 26, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+h2 {
+  background-color: #fff;
+}
+
+/* line 30, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+.top-navbar {
+  font-size: 2.4rem;
+  color: #555;
+}
+
+/* line 33, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+.similar-listings {
+  color: #fff;
+}
+
+/* line 36, /Users/galehrlich/Desktop/SCHOOL/AirBNB/scss/styles.scss */
+footer {
+  background-color: yellow;
+  font-size: 2.4rem;
+  color: blue;
+}
+
+/*# sourceMappingURL=../css/styles.map */

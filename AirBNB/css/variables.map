@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/variables.css",
+	"sources": [
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"\n// Variables\n\n$display: flex;\n$flex-direction: row;\n$justify-content: center;\n$align-items: center;\n$Tcolor: #555;\n$Fsize: 2.4rem;\n$deepPink: #ff1493;\n$yellow: yellow;\n$white: #fff;\n"
+	],
+	"mappings": "",
+	"names": []
+}

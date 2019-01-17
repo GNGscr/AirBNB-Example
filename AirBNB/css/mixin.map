@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/mixin.css",
+	"sources": [
+		"../scss/mixin.scss"
+	],
+	"sourcesContent": [
+		"\n// Mixins\n\n@mixin Hfont {\n    font-size: $Fsize; \n    color: #555;   \n}\n\n@mixin back {\n    background-color: $yellow;\n    font-size: 2.4rem;\n    color: blue;\n}\n\n@mixin Tcolor {\n    color: $white;\n}"
+	],
+	"mappings": "",
+	"names": []
+}
